@@ -83,7 +83,7 @@ This project operates under the MIT License. Refer to the [LICENSE](LICENSE) fil
 
 ## Contact Us
 
-We're excited to hear your feedback and answer any questions you have. Reach out to us at `your-email@example.com`.
+We're excited to hear your feedback and answer any questions you have. Reach out to us at `jaysriva18@gmail.com`.
 
 ---
 
