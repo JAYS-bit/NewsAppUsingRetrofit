@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JMedia</string>
+    <string name="API_KEY">PASTE_YOUR_NEWS_API_KEY</string>
+</resources>
