@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_container"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
     app:cardElevation="8dp"
     android:layout_margin="8dp"
+
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
 
     <LinearLayout
+        android:id="@+id/main_container"
         android:orientation="horizontal"
         android:layout_margin="6dp"
         android:weightSum="3"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content">
         <LinearLayout
             android:orientation="vertical"
@@ -35,7 +41,7 @@
                 android:id="@+id/text_source"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"
+                android:textColor="#452E6E"
                 android:maxLines="1"
                 android:layout_marginTop="6dp"
                 android:layout_width="match_parent"

@@ -2,6 +2,7 @@ package com.example.jmedia;
 
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -11,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 public class CustomViewHolder extends RecyclerView.ViewHolder {
     TextView text_title,text_source;
     ImageView img_headline;
-    CardView cardView;
+    LinearLayout cardView;
 
     public CustomViewHolder(@NonNull View itemView) {
         super(itemView);
