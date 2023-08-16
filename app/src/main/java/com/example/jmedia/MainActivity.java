@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -90,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements  SelectListener ,
         dialog.setTitle("Fetching news Articles");
         dialog.show();
 
-        RetrofitInstance.getInstance().callNewsApi.callHeadlines("us","general",null,getApplication().getString(R.string.API_KEY)).enqueue(new Callback<NewsApiResponse>() {
+        RetrofitInstance.getInstance().callNewsApi.callHeadlines("in","general",null,getApplication().getString(R.string.API_KEY)).enqueue(new Callback<NewsApiResponse>() {
             @Override
             public void onResponse(Call<NewsApiResponse> call, Response<NewsApiResponse> response) {
 
@@ -137,14 +138,20 @@ public class MainActivity extends AppCompatActivity implements  SelectListener ,
     public void onClick(View v) {
         Button button =(Button) v;
          category=  button.getText().toString();
+         String prev_category=category;
         dialog.setTitle("Fetching news article of "+ category);
+        button.setBackgroundColor(getResources().getColor(R.color.yellowbutton));
         dialog.show();
+
         RetrofitInstance.getInstance().callNewsApi.callHeadlines("us",category,null,getApplication().getString(R.string.API_KEY)).enqueue(new Callback<NewsApiResponse>() {
             @Override
             public void onResponse(Call<NewsApiResponse> call, Response<NewsApiResponse> response) {
                 dialog.dismiss();
                 data= response.body().getArticles();
                 showNews(data);
+
+                if(category!=prev_category)
+                    button.setBackgroundColor(getResources().getColor(R.color.greenbg));
             }
 
             @Override
@@ -152,6 +159,8 @@ public class MainActivity extends AppCompatActivity implements  SelectListener ,
 
             }
         });
+
+
 
     }
 }
