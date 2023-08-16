@@ -88,3 +88,23 @@ We're excited to hear your feedback and answer any questions you have. Reach out
 ---
 
 Empower yourself with knowledge through MyApp - Your Ultimate News Companion. Explore, read, and engage with the world's events effortlessly, backed by the robustness of Retrofit and NewsAPI. We value your experience and look forward to enhancing your news consumption journey. Dive in and enjoy the world of news with MyApp!
+
+
+
+# Images :
+
+
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss_main.jpeg" />
+
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss_front_page.jpeg" />
+
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss0.jpeg" />
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss1.jpeg" />
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss2.jpeg" />
+
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss3.jpeg" />
