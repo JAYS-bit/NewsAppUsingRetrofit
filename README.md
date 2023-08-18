@@ -109,13 +109,10 @@ Empower yourself with knowledge through MyApp - Your Ultimate News Companion. Ex
 
 <img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss3.jpeg" />
 
-<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss4.jpeg" />
 
-<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss5.jpeg" />
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss6.jpeg" />
 
-<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss2.jpeg" />
-
-<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss3.jpeg" />
+<img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss7.jpeg" />
 
 
 <img src="https://github.com/JAYS-bit/NewsAppUsingRetrofit/blob/master/ss_category_wise.jpeg" />
